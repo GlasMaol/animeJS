@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.square {
+    width: 50px;
+    aspect-ratio: 1;
+    background-color: blue;
+}
+
+.button {
+    padding: 1rem 2rem;
+}

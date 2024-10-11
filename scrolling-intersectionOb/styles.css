@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    min-height: 110vh;
+    padding-top: 2rem;
+    position: relative;
+
+    h1 {
+        font-size: 3rem;
+        font-family: "Special Elite", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        opacity: 0;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    min-height: 30vh;
+    background-color: rgb(0, 255, 8);
+    overflow: hidden;
+    position: relative;
+
+    h1 {
+        font-size: 3rem;
+        font-family: "Special Elite", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        opacity: 0;
+    }
+}
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+}
+
+.section-two {
+    background-color: rgb(195, 255, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .section-two-article-container {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .section-two-article {
+        margin: 2rem;
+        background-color: #fcdeFe;
+        width: 45vw;
+        height: 80vh;
+        box-shadow: 0px 0px 40px 10px rgba(255, 255, 255, 1);
+    }
+}
+
+.section-three {
+    background-color: rgb(255, 0, 174);
+}
+
+.figure-section-one {
+    width: 70%;
+    max-width: 700px;
+    height: auto;
+    margin-top: 5rem;
+    stroke: rgb(255, 23, 189);
+    stroke-width: 1.5;
+    filter: url(#stroke-shadow);
+}
